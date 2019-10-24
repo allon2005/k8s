@@ -1,0 +1,17 @@
+git init
+
+git add deploy_kube-prometheus.sh
+
+git commit
+
+git status
+
+git remote add origin https://github.com/allon2005/k8s.git
+
+git remote -v.  #list the remote repo
+
+remote rm origin.  #if remote repo not correct, remove it
+
+git pull origin master --allow-unrelated-histories.  #allow forced merge
+
+git push origin master
