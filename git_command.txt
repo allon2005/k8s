@@ -2,7 +2,7 @@ git init
 
 git add deploy_kube-prometheus.sh
 
-git commit
+git commit -m
 
 git status
 
